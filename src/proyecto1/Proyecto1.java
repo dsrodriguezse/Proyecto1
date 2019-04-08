@@ -27,8 +27,9 @@ public class Proyecto1 {
         System.out.println("Ingrese el segundo numero");
         numero2 = var.nextInt();
         resultado = numero1 * numero2;
-        
         System.out.println("El resultado es: "+ resultado);
+        resultado=resultado/2;
+        System.out.println("La mitad de ese resultado es: "+ resultado);
         
         
     }
