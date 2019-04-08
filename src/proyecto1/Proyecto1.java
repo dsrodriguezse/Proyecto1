@@ -9,6 +9,8 @@ package proyecto1;
  *
  * @author dsrodriguezse
  */
+    import java.util.Scanner;
+
 public class Proyecto1 {
 
     /**
@@ -16,7 +18,19 @@ public class Proyecto1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hola");
+        Scanner var = new Scanner (System.in);
+        
+        int numero1,numero2,resultado;
+        System.out.println("Para saber la multiplicacion de dos numeros");
+        System.out.println("Ingrese el primer numero");
+        numero1 = var.nextInt();
+        System.out.println("Ingrese el segundo numero");
+        numero2 = var.nextInt();
+        resultado = numero1 * numero2;
+        
+        System.out.println("El resultado es: "+ resultado);
+        
+        
     }
     
 }
